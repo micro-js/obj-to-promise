@@ -30,7 +30,7 @@ objectToPromise({
 
 ### objectToPromise(object)
 
-- `object` - an object of "yieldables"
+- `object` - an object of "resolavables"
 
 **Returns:** a promise
 
