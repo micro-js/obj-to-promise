@@ -10,12 +10,13 @@ Convert an object to a promise.
 
 ## Installation
 
-    $ npm install object-to-promise
+    $ npm install @micro-js/object-to-promise
 
 ## Usage
 
 ```js
 var objectToPromise = require('object-to-promise')
+var
 
 objectToPromise({
   1: Promise.resolve(1),
@@ -26,7 +27,7 @@ objectToPromise({
 
 ```
 
-## Api
+## API
 
 ### objectToPromise(object)
 
