@@ -16,7 +16,6 @@ Convert an object to a promise.
 
 ```js
 var objectToPromise = require('object-to-promise')
-var
 
 objectToPromise({
   1: Promise.resolve(1),
