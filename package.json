@@ -2,7 +2,7 @@
   "name": "@micro-js/object-to-promise",
   "description": "Convert an object to a promise.",
   "repository": "git://github.com/micro-js/object-to-promise.git",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
