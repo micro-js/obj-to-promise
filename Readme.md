@@ -17,6 +17,13 @@ Convert an object to a promise.
 ```js
 var objectToPromise = require('object-to-promise')
 
+objectToPromise({
+  1: Promise.resolve(1),
+  2: Promise.resolve(2)
+}).then(function (obj) {
+  console.log(obj) // => { 1: 1, 2: 2 }
+})
+
 ```
 
 ## Api
