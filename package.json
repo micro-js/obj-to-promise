@@ -9,6 +9,7 @@
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
+    "@micro-js/curry": "^1.0.0",
     "@micro-js/values": "^1.0.0",
     "@micro-js/zip-obj": "^1.0.0"
   },
