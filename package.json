@@ -1,5 +1,5 @@
 {
-  "name": "@micro-js/object-to-promise",
+  "name": "@f/object-to-promise",
   "description": "Convert an object to a promise.",
   "repository": "git://github.com/micro-js/object-to-promise.git",
   "version": "1.0.0",
@@ -9,9 +9,9 @@
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
-    "@micro-js/curry": "^1.0.0",
-    "@micro-js/values": "^1.0.0",
-    "@micro-js/zip-obj": "^1.0.0"
+    "@f/curry": "^1.0.0",
+    "@f/values": "^1.0.0",
+    "@f/zip-obj": "^1.0.0"
   },
   "devDependencies": {
     "standard": "^5.4.1",
