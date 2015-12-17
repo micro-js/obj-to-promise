@@ -1,5 +1,5 @@
 
-# object-to-promise
+# obj-to-promise
 
 [![Build status][travis-image]][travis-url]
 [![Git tag][git-image]][git-url]
@@ -10,12 +10,12 @@ Convert an object to a promise.
 
 ## Installation
 
-    $ npm install @f/object-to-promise
+    $ npm install @f/obj-to-promise
 
 ## Usage
 
 ```js
-var objectToPromise = require('object-to-promise')
+var objectToPromise = require('@f/obj-to-promise')
 
 objectToPromise({
   1: Promise.resolve(1),
@@ -38,11 +38,11 @@ objectToPromise({
 
 MIT
 
-[travis-image]: https://img.shields.io/travis/micro-js/object-to-promise.svg?style=flat-square
-[travis-url]: https://travis-ci.org/micro-js/object-to-promise
-[git-image]: https://img.shields.io/github/tag/micro-js/object-to-promise.svg
-[git-url]: https://github.com/micro-js/object-to-promise
+[travis-image]: https://img.shields.io/travis/micro-js/obj-to-promise.svg?style=flat-square
+[travis-url]: https://travis-ci.org/micro-js/obj-to-promise
+[git-image]: https://img.shields.io/github/tag/micro-js/obj-to-promise.svg
+[git-url]: https://github.com/micro-js/obj-to-promise
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/@f/object-to-promise.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@f/object-to-promise
+[npm-image]: https://img.shields.io/npm/v/@f/obj-to-promise.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/obj-to-promise
