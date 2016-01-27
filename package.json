@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@f/curry-once": "^1.0.0",
-    "@f/values": "^1.0.0",
+    "@f/values": "^1.2.0",
     "@f/zip-obj": "^1.0.0"
   },
   "devDependencies": {
